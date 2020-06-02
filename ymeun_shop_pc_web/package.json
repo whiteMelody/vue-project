@@ -23,7 +23,7 @@
     "jquery": "^2.2.4",
     "js-base64": "^2.5.1",
     "js-cookie": "^2.2.0",
-    "vant": "^1.6.15",
+    "vant": "^2.1.8",
     "vue": "^2.6.10",
     "vue-gemini-scrollbar": "^2.0.1",
     "vue-quill-editor": "^3.0.6",

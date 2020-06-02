@@ -1,0 +1,87 @@
+.ForeshadowingFillIn {
+  margin: .2rem;
+  display: flex;
+  height: 100%;
+  .customerInFoBox {
+    width: 38%;
+    height: 100%;
+    overflow: hidden;
+    .customerInFo {
+      height: 1.1rem;
+      background-color: #ffffff;
+      padding: .24rem 0 0 .2rem;
+      .name {
+        span {
+          font-size:24px;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          color:rgba(51,51,51,1);
+        }
+        i {
+          font-style: normal;
+          font-size: .2rem;
+          margin-left: .1rem;
+        }
+
+        .iconnan {
+          color: #2878ff;
+        }
+
+        .iconnv {
+          color: #ec414d;
+        }
+      }
+      .mobileAndAge {
+        margin-top: .24rem;
+        font-size:16px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+      }
+    }
+    .customerFillIn {
+      margin-top: .2rem;
+      padding: 0 .2rem;
+      background-color: #ffffff;
+      .inputBox {
+        width: 100%;
+        overflow: hidden;
+        textarea {
+          width: 100%;  
+          height: 4.5rem;
+          border: none;
+          background-color: #f2f2f2;
+          padding: .16rem;
+          font-size:14px;
+        }
+      }
+      .bottomBox {
+        display: flex;
+        justify-content: flex-end;
+        padding: .7rem 0;
+      }
+    }
+  }
+  .HistoryList {
+    flex: 1;
+    margin-left: .2rem;
+    padding: 0 .2rem;
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .title {
+    font-size:16px;
+    font-family:PingFang SC;
+    font-weight:500;
+    color: #333;
+    height: 50px;
+    margin-bottom: .2rem;
+    line-height: 50px;
+    border-bottom: 1px solid #e5e5e5;
+    i {
+      font-style: normal;
+      color: #EC414D;
+      margin-right: .05rem;
+    }
+  }
+}

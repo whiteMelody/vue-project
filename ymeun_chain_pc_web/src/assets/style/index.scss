@@ -1,0 +1,151 @@
+//font-size
+@for $i from 1 through 100 {
+  .F#{$i}rem{ font-size:(0.01rem * $i);}
+}
+
+//width wb
+@for $i from 1 through 100 {
+  .wb#{$i}{ width:(1% * $i);}
+}
+
+//width & height * line-height px => rem 0~100
+@for $i from 1 through 100 {
+  .w#{$i}rem{ width:(0.01rem * $i);}
+  .h#{$i}rem{ height:(0.01rem * $i);}
+  .lh#{$i}rem{ line-height:(0.01rem * $i);}
+}
+
+//margin & padding
+@for $i from 0 through 50 {
+  .ma#{$i}{ margin:(0.01rem * $i);}
+  .mat#{$i}{ margin-top:(0.01rem * $i);}
+  .mal#{$i}{ margin-left:(0.01rem * $i);}
+  .mar#{$i}{ margin-right:(0.01rem * $i);}
+  .mab#{$i}{ margin-bottom:(0.01rem * $i);}
+
+  .pa#{$i}{ padding:(0.01rem * $i);}
+  .pat#{$i}{ padding-top:(0.01rem * $i);}
+  .pal#{$i}{ padding-left:(0.01rem * $i);}
+  .par#{$i}{ padding-right:(0.01rem * $i);}
+  .pab#{$i}{ padding-bottom:(0.01rem * $i);}
+}
+
+//clear & radius
+@for $i from 0 through 10 {
+  .clear#{$i}{ width:100%; height:(0.05rem * $i); clear:both; overflow:hidden }
+  .radius#{$i}{ -moz-border-radius:( 0.05rem * $i ); -webkit-border-radius:( 0.05rem * $i ); border-radius:( 0.05rem * $i )}
+
+}
+
+//border
+@for $i from 0 through 5 {
+  .bor-solid-#{$i}a{ border:( 0.01rem * $i ) solid;}
+  .bor-solid-#{$i}l{ border-left:( 0.01rem * $i ) solid;}
+  .bor-solid-#{$i}t{ border-top:( 0.01rem * $i ) solid;}
+  .bor-solid-#{$i}r{ border-right:( 0.01rem * $i ) solid;}
+  .bor-solid-#{$i}b{ border-bottom:( 0.01rem * $i ) solid;}
+}
+
+
+//element ui
+
+.el-table--border th {
+  color: #333;
+  background: #ecf0fd;
+  border-right: 1px solid #ddd;
+  font-weight: 100;
+}
+
+.el-table {
+  .el-radio__label {
+    display: none;
+  }
+}
+
+.el-table .warning-row {
+  background: #f8d7d1;
+}
+
+.el-form-item {
+  .el-select {
+    width: 188px;
+  }
+  .el-date-editor {
+    width: 188px;
+  }
+  .el-autocomplete {
+    width: 188px;
+  }
+}
+
+.el-input-number.is-without-controls .el-input__inner{
+  text-align: left;
+}
+
+.flexCenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .el-form-item__content {
+    width: 100%;
+  }
+}
+
+.el-form-item.is-success .el-input__inner,
+.el-form-item.is-success .el-input__inner:focus,
+.el-form-item.is-success .el-textarea__inner,
+.el-form-item.is-success .el-textarea__inner:focus {
+  border: 1px solid #d8dce5 !important;
+}
+
+.customFormWidth {
+  width: 100%;
+  .el-form-item__content {
+    width: 60%;
+  }
+}
+
+.customFormBankWidth {
+  width: 100%;
+  .el-form-item__content {
+    width: 80%;
+  }
+}
+
+.form-checkbox{
+  display: flex;
+  flex-wrap: wrap;
+  .el-form-item__content{
+    width: 600px;
+  }
+  .el-checkbox{
+    margin-right: 30px;
+    margin-left: 0;
+  }
+}
+
+
+.el-input__suffix .el-icon-error {
+  cursor: pointer;
+}
+
+.el-card__header{
+  background-color: #ecf0fd;
+}
+.card-btn{
+  border: 1px solid blue;
+  color: blue;
+}
+
+.el-dropdown{
+  cursor: pointer;
+}
+
+.el-table--border th{
+  background: #fafafa !important;
+}
+.el-table--border tr th {
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  padding: 16px 0;
+}

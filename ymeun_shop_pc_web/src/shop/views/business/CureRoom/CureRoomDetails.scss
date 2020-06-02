@@ -1,0 +1,303 @@
+$gerrnColor : #7BDA79;
+$borderColor : #e5e5e5;
+$gray3 : #333333;
+$gray6 : #666666;
+$gray9 : #999999;
+
+.CureRoomDetails {
+  margin: .2rem;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+  .customerInfo {
+    width: 4rem;
+    overflow: hidden;
+
+    .info {
+      background-color: #fff;
+      padding: 0 .2rem;
+
+      .customerNameAndImg {
+        display: flex;
+        padding-top: .24rem;
+        align-items: center;
+
+        .img {
+          width: 65px;
+          height: 65px;
+          border-radius: 50%;
+        }
+
+        .name {
+          margin-left: .2rem;
+
+          .text {
+            font-size: .18rem;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: $gray3;
+
+            i {
+              margin-left: .12rem;
+
+              &.iconnan {
+                color: #2878ff;
+              }
+
+              &.iconnv {
+                color: #ec414d;
+              }
+            }
+          }
+
+          .mobile {
+            margin-top: .1rem;
+            font-size: .14rem;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: $gray6;
+          }
+        }
+      }
+
+      ul {
+        margin-top: .3rem;
+        margin-left: .02rem;
+
+        li {
+          margin-bottom: .19rem;
+          font-size: .14rem;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: $gray6;
+
+          span {
+            color: $gray3;
+          }
+        }
+      }
+
+      .border {
+        height: 1px;
+        background-color: $borderColor;
+        margin: .24rem 0;
+      }
+
+      .ActivityLevel {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: .15rem;
+
+        .list {
+          padding: .08rem .1rem;
+          border: 1px solid $borderColor;
+          font-size: 14px;
+          font-family: PingFang SC;
+          font-weight: 500;
+          color: $gray3;
+          margin-right: .1rem;
+          margin-bottom: .1rem;
+
+          &:nth-child(3) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .Statistics {
+      margin-top: .2rem;
+      height: 1.24rem;
+      padding: 0 .2rem;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .number {
+        font-size: .24rem;
+        color: $gray3;
+        display: flex;
+        justify-content: space-between;
+
+        i {
+          font-size: .4rem;
+          color: #c0c0c0;
+          margin-top: -.1rem;
+        }
+      }
+
+      .text {
+        font-size: .14rem;
+        color: $gray6;
+      }
+    }
+  }
+
+  .operation {
+    flex: 1;
+    margin-left: .2rem;
+
+    .room {
+      padding: 0 .2rem;
+      background-color: #fff;
+
+      .title {
+        height: .5rem;
+        line-height: .5rem;
+        border-bottom: 1px solid $borderColor;
+        font-size: 16px;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: $gray3;
+      }
+
+      .projectList {
+        display: flex;
+        justify-content: space-between;
+        padding: .2rem 0;
+        border-bottom: 1px solid $borderColor;
+
+        .box {
+          flex: 1;
+          border: 1px solid $borderColor;
+
+          .liTitle {
+            height: .5rem;
+            line-height: .5rem;
+            font-size: .14rem;
+            color: $gray6;
+            padding-left: .2rem;
+            border-bottom: 1px solid $borderColor;
+          }
+
+          .listLeft {
+            height: 4.9rem;
+            overflow-y: auto;
+
+            .li {
+              height: .4rem;
+              line-height: .4rem;
+              border-bottom: 1px solid $borderColor;
+              display: flex;
+              padding-left: .2rem;
+              font-size: .14rem;
+              color: $gray3;
+              display: flex;
+              justify-content: space-between;
+
+              .detele {
+                cursor: pointer;
+                width: .9rem;
+                text-align: center;
+                border-left: 1px solid $borderColor;
+                font-size: .14rem;
+                color: $gray6;
+
+                &:hover {
+                  opacity: .7;
+                }
+
+                i {
+                  font-size: .14rem;
+                  margin-right: .05rem;
+                }
+              }
+            }
+          }
+
+          .listLeft::-webkit-scrollbar {
+            display: none;
+          }
+
+          .Total {
+            height: .4rem;
+            line-height: .4rem;
+            border-top: 1px solid $borderColor;
+            display: flex;
+            justify-content: space-between;
+            font-size: .14rem;
+            font-family: PingFang SC;
+            font-weight: 500;
+            color: $gray3;
+
+            .money {
+              padding-left: .2rem;
+            }
+
+            .num {
+              font-size: .18rem;
+              color: #EC414D;
+              padding-right: .2rem;
+            }
+          }
+        }
+      }
+
+      .bottonBox {
+        display: flex;
+        justify-content: space-between;
+        padding: .2rem 0;
+      }
+    }
+
+    .CallingInfo {
+      padding: 0 .2rem;
+      background-color: #fff;
+      margin-top: .2rem;
+      .CallingInfoTitle {
+        height: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $borderColor;
+        margin-bottom: .2rem;
+        .text {
+          font-size:.16rem;
+          font-family:PingFang SC;
+          font-weight:500;
+          color:$gray3;
+        }
+        .jil {
+          font-size:.14rem;
+          font-family:PingFang SC;
+          font-weight:500;
+          color:$gray6;
+          cursor: pointer;
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+
+      .callingInfoLIst {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 1.15rem;
+        .liList {
+          margin-right: .16rem;
+          width: 1rem;
+          height: 1rem;
+          border: 1px solid $borderColor;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          color: $gray3;
+          font-size: .14rem;
+          font-weight:500;
+          cursor: pointer;
+          &:hover {
+            color: #0DC9E5;
+            border: 1px solid #0DC9E5;
+          }
+          i {
+            font-size: .34rem;
+            margin-bottom: .1rem;
+          }
+        }
+      }
+    }
+  }
+}

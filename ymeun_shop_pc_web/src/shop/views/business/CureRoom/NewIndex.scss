@@ -1,0 +1,232 @@
+$gerrnColor : #7BDA79;
+$borderColor : #e5e5e5;
+$gray3 : #333333;
+$gray6 : #666666;
+$gray9 : #999999;
+
+.CureRoom {
+  .top {
+    height: .8rem;
+    background-color: #ffff;
+    padding: .22rem;
+    margin-bottom: .2rem;
+
+    h5 {
+      font-size: 16px;
+      font-weight: 500;
+      color: $gray3;
+    }
+
+    .form {
+      margin-top: .2rem;
+
+      .select {
+        float: left;
+        margin-right: .1rem;
+      }
+
+      .botton {
+        float: right;
+      }
+    }
+  }
+
+  .list {
+    margin: .2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .li {
+      background-color: #fff;
+      padding: 0 .2rem;
+      width: 22%;
+      margin-bottom: .2rem;
+
+      .upper {
+        height: .8rem;
+        border-bottom: 1px solid $borderColor;
+        display: flex;
+        align-items: center;
+
+        .room {
+          width: .45rem;
+          height: .4rem;
+          border-radius: 50%;
+          border: 1px solid $borderColor;
+          box-sizing: border-box;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: .16rem;
+
+          i {
+            font-size: .2rem;
+            color: $gray6;
+          }
+
+          .colorGreen {
+            color: $gerrnColor;
+          }
+        }
+
+        .roomName {
+          width: 100%;
+
+          div {
+            font-family: PingFang SC;
+            font-weight: 500;
+          }
+
+          .nameAndStatus {
+            width: 100%;
+            margin-bottom: .1rem;
+            display: flex;
+            justify-content: space-between;
+
+            .name {
+              flex: 1;
+              font-size: .16rem;
+              color: $gray3;
+            }
+
+            .status {
+              color: $gray9;
+              font-size: .14rem;
+            }
+
+            .colorGreen {
+              color: $gerrnColor;
+            }
+          }
+
+          .remarks {
+            width: 60%;
+            font-size: .14rem;
+            color: $gray9;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .li_in {
+        .open {
+          height: 1rem;
+          padding-top: .3rem;
+          .box {
+            display: flex;
+            .img {
+              width: 40px;
+              height: 35px;
+              border-radius: 50%;
+            }
+  
+            .info {
+              width: 100%;
+              margin-left: .16rem;
+              font-family: PingFang SC;
+              font-weight: 500;
+  
+              .customerName {
+                font-size: .16rem;
+                color: $gray3;
+                margin-bottom: .1rem;
+                margin-top: -.05rem;
+              }
+  
+              .time {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+  
+                .left {
+                  font-size: .14rem;
+                  color: $gray9;
+  
+                  span {
+                    color: #FF5722;
+                    font-size: .14rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .colse {
+          height: 1.32rem;
+          line-height: 1.32rem;
+          text-align: center;
+          font-size:.16rem;
+          font-family:PingFang SC;
+          font-weight:500;
+          color: $gray9;
+        }
+        .ButtonGroup {
+          width: 100%;
+          margin-bottom: .2rem;
+          .buttonOpen {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+            overflow: hidden;
+            div {
+              height: .4rem;
+              line-height: .4rem;
+              text-align: center;
+              font-size: .14rem;
+              cursor: pointer;
+              &:hover {
+                opacity: 0.7;
+              }
+            }
+            .gray {
+              width: 33.33%;
+              color: $gray3;
+              i {
+                margin-right: .05rem;
+                font-size: .14rem;
+                color: $gray3;
+              }
+            }
+            .blue {
+              flex: 1;
+              background-color: #0DC9E5;
+              color: #fff;
+            }
+            em {
+              width: 1px;
+              height: .1rem;
+              background-color: #c0c0c0;
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  .appDataBox {
+    height: 100%;
+    .app_box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .appBox_div {
+        div {
+          display: flex;
+          .el-date-editor.el-input, .el-date-editor.el-input__inner {
+            width: 185px!important;
+          }
+        }
+      }
+    }
+  }
+}

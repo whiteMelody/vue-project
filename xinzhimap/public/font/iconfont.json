@@ -1,0 +1,576 @@
+{
+  "id": "1718515",
+  "name": "新知空间",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "新知空间地图项目",
+  "glyphs": [
+    {
+      "icon_id": "4376115",
+      "name": "街景",
+      "font_class": "jiejing1",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "13506390",
+      "name": "街景2",
+      "font_class": "jiejing2",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "9874547",
+      "name": "KHCFDC_旋转",
+      "font_class": "xuanzhuan",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "9351319",
+      "name": "货主端查询线路",
+      "font_class": "huozhuduanchaxunxianlu",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "3597936",
+      "name": "完成",
+      "font_class": "wancheng",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "6436381",
+      "name": "清除",
+      "font_class": "qingchu1",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "3151456",
+      "name": "收 藏 (3)",
+      "font_class": "shoucang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "12101324",
+      "name": "撤销",
+      "font_class": "chexiao",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "12247643",
+      "name": "中心点",
+      "font_class": "zhongxindian",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "12786321",
+      "name": "关  闭",
+      "font_class": "guanbi",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "1645323",
+      "name": "图层",
+      "font_class": "tuceng",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "6118478",
+      "name": "图层",
+      "font_class": "tuceng1",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "4228114",
+      "name": "帮助",
+      "font_class": "bangzhu1",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "14353809",
+      "name": "帮 助",
+      "font_class": "bangzhu",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "252328",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "268715",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "359085",
+      "name": "QQ",
+      "font_class": "qq",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "582443",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "1002878",
+      "name": "微博",
+      "font_class": "weibo1",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1586457",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5782491",
+      "name": "支付宝",
+      "font_class": "umidd17",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "14166037",
+      "name": "qq  ",
+      "font_class": "qq1",
+      "unicode": "e98f",
+      "unicode_decimal": 59791
+    },
+    {
+      "icon_id": "14008361",
+      "name": "退出",
+      "font_class": "tuichu1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "14359056",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "1128026",
+      "name": "resize",
+      "font_class": "resize",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "3484937",
+      "name": "清除",
+      "font_class": "qingchu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "11246405",
+      "name": "公路标线点",
+      "font_class": "gonglubiaoxiandian",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "13806229",
+      "name": "标点",
+      "font_class": "biaodian",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "13806230",
+      "name": "标面",
+      "font_class": "biaomian",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "14366884",
+      "name": "测距",
+      "font_class": "ceju",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "4958135",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "5387558",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "eb01",
+      "unicode_decimal": 60161
+    },
+    {
+      "icon_id": "10808071",
+      "name": "个人中心 选中",
+      "font_class": "gerenzhongxinxuanzhong",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "11316669",
+      "name": "到这去",
+      "font_class": "daozhequ",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "1698513",
+      "name": "卫星",
+      "font_class": "ic_satellite_px",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "1782351",
+      "name": "地图",
+      "font_class": "map1",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "7103704",
+      "name": "地形",
+      "font_class": "yingxiang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10237749",
+      "name": "地图",
+      "font_class": "ditu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "13461471",
+      "name": "街景",
+      "font_class": "jiejing",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "12071821",
+      "name": "显示十字线",
+      "font_class": "zengjia_",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "13286169",
+      "name": "不显示路网",
+      "font_class": "buxianshiluwang",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "13838828",
+      "name": "行政区划库",
+      "font_class": "hangzhengquhuaku",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "13929409",
+      "name": "河流图",
+      "font_class": "heliutu",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "10979431",
+      "name": "图层 copy",
+      "font_class": "tucengcopy",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "8035742",
+      "name": "3D地球",
+      "font_class": "Ddiqiu",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "4323431",
+      "name": "3D",
+      "font_class": "D",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "2209303",
+      "name": "十字线",
+      "font_class": "shizixian",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "98737",
+      "name": "140-页面草图",
+      "font_class": "140yemiancaotu",
+      "unicode": "e7e0",
+      "unicode_decimal": 59360
+    },
+    {
+      "icon_id": "12309428",
+      "name": "截屏",
+      "font_class": "jieping",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "13547006",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "10284427",
+      "name": "罗盘",
+      "font_class": "luopan",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "2331643",
+      "name": "工具",
+      "font_class": "gongju",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "8940068",
+      "name": "定位",
+      "font_class": "personLocation",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "9171943",
+      "name": "海拔",
+      "font_class": "haiba",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "10218882",
+      "name": "方位角",
+      "font_class": "fangweijiao",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "11636495",
+      "name": "地图标记",
+      "font_class": "ditubiaoji",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11883499",
+      "name": "测量",
+      "font_class": "celiang",
+      "unicode": "e85b",
+      "unicode_decimal": 59483
+    },
+    {
+      "icon_id": "12559831",
+      "name": "数据 (2)",
+      "font_class": "shuju",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "12883864",
+      "name": "工具箱-空间距离",
+      "font_class": "gongjuxiang-kongjianjuli",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "5837893",
+      "name": "latitude",
+      "font_class": "latitude",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5837905",
+      "name": "longitude",
+      "font_class": "longitude",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "3856874",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "7879757",
+      "name": "icon_PC下载",
+      "font_class": "icon_PCxiazai",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "10343581",
+      "name": "app 下载",
+      "font_class": "appxiazai",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "13074072",
+      "name": "个人中心 - 中",
+      "font_class": "gerenzhongxin-zhong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6720595",
+      "name": "地图编辑",
+      "font_class": "ditubianji",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "9986499",
+      "name": "地图编辑",
+      "font_class": "edit",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "10105474",
+      "name": "专题地图",
+      "font_class": "zhuantiditu",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "917154",
+      "name": "search 2",
+      "font_class": "search2",
+      "unicode": "e7d0",
+      "unicode_decimal": 59344
+    },
+    {
+      "icon_id": "9970932",
+      "name": "arcGis",
+      "font_class": "arcGis",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "12736418",
+      "name": "在线地图",
+      "font_class": "zaixianditu--",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "13683449",
+      "name": "地图",
+      "font_class": "tubiao-",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1576789",
+      "name": "arcgis",
+      "font_class": "arcgis",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3859592",
+      "name": "高德",
+      "font_class": "gaode",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5883002",
+      "name": "OSM地图",
+      "font_class": "OSMditu",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "6958607",
+      "name": "天地图",
+      "font_class": "tianditu",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "8032559",
+      "name": "腾讯地图",
+      "font_class": "tengxunditu",
+      "unicode": "e9d3",
+      "unicode_decimal": 59859
+    },
+    {
+      "icon_id": "9721332",
+      "name": "百度",
+      "font_class": "baidu",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "12194272",
+      "name": "Arcgis",
+      "font_class": "_huabanfuben",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "12502790",
+      "name": "mapbox",
+      "font_class": "mapbox",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "12637968",
+      "name": "谷歌",
+      "font_class": "guge",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    }
+  ]
+}

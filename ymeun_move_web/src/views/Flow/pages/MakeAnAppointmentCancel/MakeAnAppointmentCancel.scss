@@ -1,0 +1,21 @@
+.MakeAnAppointmentCancel {
+    background: #f8f8f8;
+    .remark{
+        padding: .3rem .24rem;
+        display: flex;
+        textarea{
+            height: 3.6rem;
+            resize: none;
+            border: 0;
+            flex: 1;
+        }
+    }
+    .btns{
+        padding: 1.2rem .5rem .4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,315 @@
+.Triage {
+  margin: 24px 20px;
+  background-color: #ffffff;
+  padding: 0 20px;
+  overflow: hidden;
+
+  header {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: .16rem;
+    font-family: PingFang-SC-Medium;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .confirm_box {
+    .user_name{
+      border-top: 1px solid #e5e5e5;
+      display: flex;
+      align-items: center;
+      line-height: .5rem;
+      p{
+        font-size: 16px;
+        color: #0DC9E5;
+      }
+      span{
+        font-size: 16px;
+        color: #0DC9E5;
+        padding-left: .3rem;
+      }
+    }
+    .Prize {
+      margin-top: .2rem;
+      ul {
+        border-top: 1px solid #e5e5e5;
+        li {
+          width: 100%;
+          height: 50px;
+          border-bottom: 1px solid #e5e5e5;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family:PingFang-SC-Medium;
+          font-weight:500;
+          .title {
+            font-size:.16rem;
+            color:rgba(13,201,229,1);
+          }
+          .text {
+            font-size:.14rem;
+            color:rgba(51,51,51,1);
+          }
+          .Stepper {
+            display: flex;
+            align-items: center;
+            font-size:.16rem;
+            .jiajian {
+              font-size: .2rem;
+              width:.29rem;
+              height:28px;
+              background:rgba(248,248,248,1);
+              text-align: center;
+              border: 1px solid #e5e5e5;
+              color:#333333;
+              cursor:pointer;
+            }
+            .textNum {
+              width: .5rem;
+              height: 28px;
+              border-top: 1px solid #e5e5e5;
+              border-bottom: 1px solid #e5e5e5;
+              text-align: center;
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .box {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    ul {
+      width: 100%;
+      background-color: #ffffff;
+
+      li {
+        width: 20%;
+        border-radius: 20px;
+        padding: .2rem;
+        margin-bottom: .4rem;
+        float: left;
+        margin-right: .4rem;
+
+        .name {
+          display: flex;
+          justify-content: space-between;
+
+          .text {
+            .time {
+              font-size: .14rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(102, 102, 102, 1);
+            }
+
+            .text_name {
+              position: relative;
+
+              .iconname {
+                font-size: .2rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                margin-right: .05rem;
+                display: inline-block;
+              }
+
+              .iconnan {
+                color: #2878ff;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+
+              .iconnv {
+                color: #ec414d;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+            }
+          }
+
+          .customer {
+            display: flex;
+            height: 40px;
+            width: 1.2rem;
+            border-radius: 40px;
+            overflow: hidden;
+
+            div {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: .14rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              width: 50%;
+            }
+
+            .left_xin {
+              background-color: #FFFFFF;
+              color: #FF5722;
+            }
+
+            .left_lao {
+              background-color: #FFFFFF;
+              color: #666666;
+            }
+
+            .right_wei {
+              background-color: #FF7D54;
+              color: rgba(255, 255, 255, 1);
+            }
+
+            .right_yi {
+              background-color: #7BDA79;
+              color: rgba(255, 255, 255, 1);
+            }
+
+            .right_qu {
+              background-color: #999A9F;
+              color: rgba(255, 255, 255, 1);
+            }
+          }
+        }
+
+        .listBox {
+          margin-top: .2rem;
+          padding-bottom: .08rem;
+
+          .list {
+            margin-bottom: .15rem;
+            display: flex;
+            i {
+              font-style: normal;
+              width: .7rem;
+              font-size: .14rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(102, 102, 102, 1);
+            }
+
+            span {
+              flex: 1;
+              font-size: .14rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              color: rgba(51, 51, 51, 1);
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 1; /*截取第三行*/
+              overflow: hidden;
+              cursor:pointer;  
+            }
+          }
+        }
+
+        .listBox_wei {
+          border-bottom: 1px solid rgba(255, 87, 34, 0.2);
+        }
+        .listBox_yi {
+          border-bottom: 1px solid rgba(83,189,80,0.2);
+        }
+        .listBox_qu {
+          border-bottom: 1px solid rgba(153,154,159,0.2);
+        }
+
+        .buttomBox {
+          margin-top: .17rem;
+
+          .buttom1 {
+            display: flex;
+
+            div {
+              width: 50%;
+              text-align: center;
+              font-size: .16rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+              cursor: pointer;
+            }
+
+            .buttom_left {
+              border-right: 1px solid rgba(255, 87, 34, 0.2);
+              color: rgba(102, 102, 102, 1);
+            }
+
+            .buttom_right {
+              // color: rgba(255, 87, 34, 1);
+              color: rgba(102, 102, 102, 1);
+            }
+          }
+
+          .buttom2 {
+            text-align: center;
+            div{
+              font-size: .16rem;
+              font-family: MicrosoftYaHei;
+              font-weight: 400;
+            }
+            .buttom_left {
+              color: rgba(22,168,18,1);
+              cursor: pointer;
+            }
+            .buttom_right {
+              color: rgba(22,168,18,0.5);
+            }
+          }
+
+          .buttom3 {
+            .list {
+              display: flex;
+
+              i {
+                font-style: normal;
+                width: .6rem;
+                font-size: .16rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(102, 102, 102, 1);
+              }
+
+              span {
+                flex: 1;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                font-size: .14rem;
+                font-family: MicrosoftYaHei;
+                font-weight: 400;
+                color: rgba(51, 51, 51, 1);
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+              }
+            }
+          }
+
+        }
+
+      }
+
+      li:nth-child(4n) {
+        margin-right: 0;
+      }
+
+      .liActive_wei {
+        background-color: #FFF1E3;
+      }
+      .liActive_yi {
+        background-color: #E6F5DF;
+      }
+      .liActive_qu {
+        background-color: #F2F3F7;
+      }
+    }
+  }
+}

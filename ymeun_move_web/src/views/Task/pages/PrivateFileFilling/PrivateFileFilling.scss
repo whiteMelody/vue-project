@@ -1,0 +1,205 @@
+.PrivateFileFilling{
+    background: #f8f8f8;
+    .user{
+        height: 1rem;
+        padding: 0 .24rem;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        p{
+            font-size: .28rem;
+            color: #333;
+        }
+        span:nth-of-type(1){
+            flex: 1;
+            font-size: .26rem;
+            color: #666;
+            padding-left: .1rem;
+            b{
+                font-weight: normal;
+            }
+            b.red{
+                color: #EC414D;
+            }
+            b.orange{
+                color: #FF5722;
+            }
+            b.full{
+                color: #C09346;
+            }
+            b.green{
+                color: #009688;
+            }
+        }
+        span:nth-of-type(2){
+            font-size: .26rem;
+            color: #666;
+            b{
+                font-weight: normal;
+                color: #EC414D;
+            }
+        }
+    }
+    .message{
+        padding-bottom: 1rem;
+        .message_list{
+            padding: 0 .24rem;
+            margin-top: .2rem;
+            background: #fff;
+            > div{
+                padding-bottom: .3rem;
+                h3{
+                    font-size: .28rem;
+                    color: #333;
+                    border-bottom: 1px solid #e5e5e5;
+                    height: .9rem;
+                    font-weight: normal;
+                    display: flex;
+                    align-items: center;
+                    margin: 0
+                }
+            }
+            .import{
+                ul{
+                    margin-top: .1rem;
+                    li{
+                        background: #F8F8F8;
+                        border-radius:.1rem;
+                        padding-left: .25rem;
+                        margin-top: .2rem;
+                        height: .9rem;
+                        display: flex;
+                        input{
+                            border: 0;
+                            font-size: .28rem;
+                            background: none;
+                            width: 100%;
+                            color: #333333;
+                        }
+                    }
+                }
+            }
+            .textareas{
+                p{
+                    margin-top: .3rem;
+                    background: #F8F8F8;
+                    border-radius:.1rem;
+                    height: 1.6rem;
+                    padding: .3rem .2rem;
+                    display: flex;
+                    textarea{
+                        font-size: .28rem;
+                        color: #333333;
+                        resize: none;
+                        flex: 1;
+                        background: none;
+                        border: 0;
+                    }
+                }
+            }
+            .checkbox_title{
+                ul{
+                    li{
+                        padding-top: .4rem;
+                        h4{
+                            font-size: .28rem;
+                            font-weight: normal;
+                            color: #333;
+                            margin: 0;
+                        }
+                        div{
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: flex-start;
+                            margin-top: .2rem;
+                            p{
+                                font-size: .28rem;
+                                color: #666666;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding: .2rem .24rem;
+                                background: #F8F8F8;
+                                margin: .2rem .2rem 0 0;
+                            }
+                            .active{
+                                background: #04776C;
+                                color: #fff;
+                            }
+                            a{
+                                font-size: .28rem;
+                                color: #04776C;
+                                width: .7rem;
+                                height: .7rem;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border:1px solid #04776C;
+                                margin-top: .2rem;
+                                border-radius:.1rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .checkboxs,.radio{
+                div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: flex-start;
+                    margin-top: .2rem;
+                    p{
+                        font-size: .28rem;
+                        color: #666666;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: .2rem .24rem;
+                        background: #F8F8F8;
+                        margin: .2rem .2rem 0 0;
+                    }
+                    .active{
+                        background: #04776C;
+                        color: #fff;
+                    }
+                    a{
+                        font-size: .28rem;
+                        color: #04776C;
+                        width: .7rem;
+                        height: .7rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border:1px solid #04776C;
+                        margin-top: .2rem;
+                        border-radius:.1rem;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        width: 100%;
+        span{
+            width: 2.5rem;
+            background: #fff;
+            color: #04776C;
+        }
+        a{
+            flex: 1;
+            background: #04776C;
+            color: #fff;
+        }
+        span,a{
+            height: .9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: .28rem;
+        }
+    }
+}

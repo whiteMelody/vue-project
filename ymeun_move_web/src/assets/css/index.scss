@@ -1,0 +1,93 @@
+//font-size
+// 使用方法 <p class="f20rem">这是.2rem的字体</p>
+@for $i from 1 through 50 {
+  .f#{$i}rem{ font-size:(0.01rem * $i);}
+}
+
+//width wb
+// 使用方法 <div class="wb50">这是宽度50%的div</div>
+@for $i from 1 through 100 {
+  .wb#{$i}{ width:(1% * $i);}
+}
+
+//width & height * line-height px => rem 0~100
+// 使用方法 <div class="w50rem h50rem">这是高宽.5rem的div</div>
+@for $i from 1 through 100 {
+  .w#{$i}rem{ width:(0.01rem * $i);}
+  .h#{$i}rem{ height:(0.01rem * $i);}
+  .lh#{$i}rem{ line-height:(0.01rem * $i);}
+}
+
+//margin & padding
+// 使用方法 <div class="pa20">这是内间距.2rem的div</div>
+@for $i from 0 through 50 {
+  .ma#{$i}{ margin:(0.01rem * $i);}
+  .mat#{$i}{ margin-top:(0.01rem * $i);}
+  .mal#{$i}{ margin-left:(0.01rem * $i);}
+  .mar#{$i}{ margin-right:(0.01rem * $i);}
+  .mab#{$i}{ margin-bottom:(0.01rem * $i);}
+
+  .pa#{$i}{ padding:(0.01rem * $i);}
+  .pat#{$i}{ padding-top:(0.01rem * $i);}
+  .pal#{$i}{ padding-left:(0.01rem * $i);}
+  .par#{$i}{ padding-right:(0.01rem * $i);}
+  .pab#{$i}{ padding-bottom:(0.01rem * $i);}
+}
+
+//clear & radius
+// 使用方法 <div class="clear4">这是一个.2rem的清除浮动层</div>
+// 使用方法 <div class="radius4 h40rem wb100">这是一个宽100%高.4rem的圆角div</div>
+@for $i from 0 through 10 {
+  .clear#{$i}{ width:100%; height:(0.05rem * $i); clear:both; overflow:hidden }
+  .radius#{$i}{ -moz-border-radius:( 0.05rem * $i ); -webkit-border-radius:( 0.05rem * $i ); border-radius:( 0.05rem * $i )}
+}
+
+//border
+// 使用方法 <div class="wb100 bd-b1">这是一个宽100%,底部边框.01rem的div</div>
+@for $i from 0 through 5 {
+  .bd-a#{$i}{ border:( 0.01rem * $i ) solid;}
+  .bd-l#{$i}{ border-left:( 0.01rem * $i ) solid;}
+  .bd-t#{$i}{ border-top:( 0.01rem * $i ) solid;}
+  .bd-r#{$i}{ border-right:( 0.01rem * $i ) solid;}
+  .bd-b#{$i}{ border-bottom:( 0.01rem * $i ) solid;}
+}
+
+//color
+// 使用方法 <div class="fc-red">这是一个红色字体颜色</div>
+// 使用方法 <div class="bg-red wb100 h50rem">这是一个宽100%，高.5rem的红色背景层</div>
+// 使用方法 <div class="wb100 bd-b1 bd-red">这是一个宽100%,底部边框红色.01rem的div</div>
+@each $name,$color in (red, #e34444),(blue, #2878FF),(white, #FFF),
+                      (yellow, #ffd800),(orange, #FF5722),(black, #000),
+                      (green, #04776C),(gray, #E5E5E5),(gray1, #aaa),
+                      (gray2, #999), (gray3, #666),(gray4, #333),(black2, #333),
+                      (brown, #C09346), (blak1, #202020),(white1, #F8F8F8),
+                      (orange1, #FD8137), (blue1, #378EEF),(green1, #E7F6F5),
+                      (orange2, #FF6B22), (blue2, #00A3EA),(green2, #27AD37),
+                      (blue3, #0666F6),
+                      {
+  .fc-#{$name} {
+    color : $color;
+  }
+
+  .bg-#{$name} {
+    background-color : $color;
+  }
+
+  .bd-#{$name} {
+    border-color : $color;
+  }
+
+}
+
+//element ui
+.el-input{ display: block !important;}
+.el-calendar__header{ padding: .2rem !important; }
+.el-calendar-day{ height: auto !important;}
+.el-calendar-table td{ border: 0 !important;}
+.el-calendar-table tbody{ text-align: center !important;}
+.el-calendar__body{ padding: 0 !important;}
+.el-calendar-table .el-calendar-day:hover { background-color: #7D8081 !important; color:#fff}
+.CustomerDetails .el-tabs__nav{ height: 80px !important; margin-top: -35px !important;}
+.CustomerDetails .el-tabs__nav-scroll{ padding: 0 .2rem !important;}
+//.CustomerDetails .el-tabs__item{ padding: 0 .2rem !important;}
+

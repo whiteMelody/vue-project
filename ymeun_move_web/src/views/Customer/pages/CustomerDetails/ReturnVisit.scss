@@ -1,0 +1,82 @@
+.ReturnVisit {
+  .box {
+    width: 100%;
+    height: 0.09rem;
+    // background-color: #f8f8f8;
+  }
+  .Summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.24rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+    .li {
+      width: 49.8%;
+      text-align: center;
+      .number {
+        font-size: 0.4rem;
+        font-family: PingFang-SC-Bold;
+        font-weight: bold;
+        color: rgba(51, 51, 51, 1);
+      }
+      .text {
+        font-size: 0.26rem;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(102, 102, 102, 1);
+      }
+      .kong {
+        height: 0.32rem;
+      }
+    }
+    .feng {
+      width: 1px;
+      height: 40px;
+      background: rgba(229, 229, 229, 1);
+    }
+  }
+
+  ul {
+    background-color: #fff;
+    padding: 0 0.245rem;
+    li {
+      padding: .3rem 0;
+      width: 100%;
+      border-bottom: 0.01rem solid #e5e5e5;
+      .center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: .05rem;
+        .time {
+          font-size: 0.28rem;
+          font-family: PingFang-SC-Medium;
+          font-weight: 500;
+          color: rgba(102, 102, 102, 1);
+        }
+        .Unpaid {
+          font-size: 0.26rem;
+          font-family: PingFang-SC-Medium;
+          font-weight: 500;
+          color: rgba(236, 65, 77, 1);
+        }
+        .Paymented {
+          font-size: .26rem;
+          font-family: PingFang-SC-Medium;
+          font-weight: 500;
+          color: rgba(4, 119, 108, 1);
+        }
+      }
+      .bottom {
+        margin-top: 0.15rem;
+        font-size: 0.28rem;
+        font-family: PingFang-SC-Medium;
+        font-weight: 500;
+        color: rgba(102, 102, 102, 1);
+      }
+    }
+    li:last-child {
+      border: none;
+    }
+  }
+}

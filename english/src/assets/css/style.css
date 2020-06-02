@@ -1,0 +1,206 @@
+/*
+ * 7天英语的样式集
+ * @by chenjun
+ * 创建时间：2015-11-12
+ * 最后更新时间：2016-12-7 13:34:26
+ *
+*/
+
+@charset "utf-8";
+
+/*
+ * dropload-up
+ *
+ */
+.dropload-up,.dropload-down{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    font-size: 14px;
+    /* 开启硬件加速 */
+    -webkit-transform:translateZ(0);
+    transform:translateZ(0);
+}
+.dropload-down{
+    height: 50px;
+}
+.dropload-refresh,.dropload-update,.dropload-load,.dropload-noData{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.dropload-load .loading{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 6px;
+    border: 2px solid #666;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    -webkit-animation: rotate 0.75s linear infinite;
+    animation: rotate 0.75s linear infinite;
+}
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    50% {
+        -webkit-transform: rotate(180deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*
+ * cs-loader
+ *
+ */
+
+
+.cs-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255,255,255,1);
+    z-index: 999999999;
+}
+
+.cs-loader-black {
+    background: rgba(0,0,0,1);
+}
+
+.cs-loader-inner {
+    transform: translateY(-50%);
+    top: 48%;
+    position: absolute;
+    width: calc(100% - 200px);
+    color: #FFF;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.cs-loader-inner label {
+    font-size: 20px;
+    opacity: 0;
+    display:inline-block;
+    color: #1b87fd;
+}
+
+@keyframes lol {
+    0% {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    33% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    66% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+}
+
+@-webkit-keyframes lol {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-300px);
+    }
+    33% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+    66% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(300px);
+    }
+}
+
+.cs-loader-inner label:nth-child(6) {
+    -webkit-animation: lol 3s infinite ease-in-out;
+    animation: lol 3s infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(5) {
+    -webkit-animation: lol 3s 100ms infinite ease-in-out;
+    animation: lol 3s 100ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(4) {
+    -webkit-animation: lol 3s 200ms infinite ease-in-out;
+    animation: lol 3s 200ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(3) {
+    -webkit-animation: lol 3s 300ms infinite ease-in-out;
+    animation: lol 3s 300ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(2) {
+    -webkit-animation: lol 3s 400ms infinite ease-in-out;
+    animation: lol 3s 400ms infinite ease-in-out;
+}
+
+.cs-loader-inner label:nth-child(1) {
+    -webkit-animation: lol 3s 500ms infinite ease-in-out;
+    animation: lol 3s 500ms infinite ease-in-out;
+}
+
+
+/*
+ * En_component
+ * 7天英语控件样式
+ */
+
+.En_header{ width: 100%;}
+.En_header-fixed{ position: fixed; top: 0; z-index: 99;}
+
+.dialogBg{ background: rgba(0,0,0,.5); width: 100%; height: 100%; position: fixed; z-index: 99999; display: none; top:0; left:0; }
+.dialog-download{ width: 300px; height: 300px; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: 999999; display: none;}
+.nav-menu{ background: #fff; position: fixed; top: 60px; right: 20px; width: 120px; border: 1px solid #e1e1e1; border-top:none;  z-index: 99999; webkit-box-shadow:0px 0px 2px #a9a9a9;-moz-box-shadow:0px 0px 2px #a9a9a9;box-shadow:0px 0px 2px #a9a9a9 }
+.nav-menu-bg{ background: rgba(0,0,0,.1); position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%;}
+
+/*
+ * En_icons
+ * 7天英语图标样式
+ */
+/*.en-back{ height: 50px; width: 50px; position: absolute; left: 18px; top:0; background: url("../images/icon-back.png") no-repeat left center; background-size: auto 20px;}*/
+/*.en-back2{ height: 50px; width: 50px; position: absolute; left: 18px; top:0; background: url("../images/icon-back-white.png") no-repeat left center; background-size: auto 20px;}*/
+/*.en-edit{ height: 50px; width: 50px; position: absolute; right: 18px; top:0; background: url("../images/icon-main-edit.png") no-repeat right center; background-size: auto 25px;}*/
+/*.en-share{ height: 50px; width: 50px; position: absolute; right: 18px; top:0; background: url("../images/icon-share-white.png") no-repeat right center; background-size: auto 25px;}*/
+
+/*
+ * 7天英语其他样式
+ */
+.gold-buy{ border: 1px solid #e1e1e1; color: #333;}
+.gold-buy-active{ border: 1px solid #f6a623; color: #f6a623;}
+
+.tab-nav{ color: #333; }
+.tab-nav-active{ height: 43px; line-height: 43px; display: inline-block; color:#0079fc; border-bottom: 2px solid #0079fc;}
+
+.head-nav{ color: #333; height: 30px; line-height: 30px; width: 25%; float: left; text-align: center; }
+.head-nav-active{ height: 28px; line-height: 28px; display: inline-block; color:#0079fc; border-bottom: 2px solid #0079fc;}
+

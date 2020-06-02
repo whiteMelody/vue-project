@@ -1,0 +1,166 @@
+//font-size
+@for $i from 1 through 50 {
+  .f#{$i}px{ font-size:(1px * $i) !important;}
+}
+
+//width wb
+@for $i from 1 through 100 {
+  .wb#{$i}{ width:(1% * $i) !important;}
+}
+
+//width & height * line-height px => px 0~100
+@for $i from 1 through 100 {
+  .w#{$i}px{ width:(1px * $i) !important;}
+  .h#{$i}px{ height:(1px * $i) !important;}
+  .lh#{$i}px{ line-height:(1px * $i) !important;}
+}
+
+//margin & padding
+@for $i from 0 through 50 {
+  .ma#{$i}{ margin:(1px * $i) !important;}
+  .mat#{$i}{ margin-top:(1px * $i) !important;}
+  .mal#{$i}{ margin-left:(1px * $i) !important;}
+  .mar#{$i}{ margin-right:(1px * $i) !important;}
+  .mab#{$i}{ margin-bottom:(1px * $i) !important;}
+
+  .pa#{$i}{ padding:(1px * $i) !important;}
+  .pat#{$i}{ padding-top:(1px * $i) !important;}
+  .pal#{$i}{ padding-left:(1px * $i) !important;}
+  .par#{$i}{ padding-right:(1px * $i) !important;}
+  .pab#{$i}{ padding-bottom:(1px * $i) !important;}
+}
+
+//clear & radius
+@for $i from 0 through 10 {
+  .clear#{$i}{ width:100%; height:(5px * $i); clear:both; overflow:hidden }
+  .radius#{$i}{ -moz-border-radius:( 5px * $i ); -webkit-border-radius:( 5px * $i ); border-radius:( 5px * $i )}
+}
+
+//border
+@for $i from 0 through 5 {
+  .bd-a#{$i}{ border:( 1px * $i ) solid !important;}
+  .bd-l#{$i}{ border-left:( 1px * $i ) solid !important;}
+  .bd-t#{$i}{ border-top:( 1px * $i ) solid !important;}
+  .bd-r#{$i}{ border-right:( 1px * $i ) solid !important;}
+  .bd-b#{$i}{ border-bottom:( 1px * $i ) solid !important;}
+}
+
+//color
+@each $name,$color in (red, #EC414D),(red1, #FD8137),(red2, #FFDCC7),(red3, #EC414D),
+                      (blue, #0E8AF2),(blue1, #BFE3FF),(blue2, #5660CA),(blue3, #D3D7FF),(blue4, #78DAE9),(blue5, #EBFCFF),(blue6, #0DC9E5), (blue7, #00A3EA),(blue8, #0666F6),(blue9, #9FDEE7),
+                      (white, #FFF),(white1, #F8F8F8),(white2, #F4F4F4),
+                      (yellow, #FAC308),(yellow1, #FFF7DE),
+                      (orange, #FF5722),(orange1, #FF6B22),(orange2, #FEB78C),
+                      (black, #000),
+                      (green, #04776C),(green1, #27AD37),(green2, #009688),(green3, #bbe7e3),(green4, #10c55b),(green5, #9FDB9D),
+                      (gray, #E5E5E5),
+                      (gray1, #aaa),(gray2, #999), (gray3, #666),(gray4, #333),
+                      (brown, #C09346),
+                      (pink, #FF63A3),(pink1, #FACCDF),(pink2, #FFEAEB),(pink3, #ec414d),
+                      {
+  .fc-#{$name} {
+    color : $color !important;
+  }
+
+  .bg-#{$name} {
+    background-color : $color !important;
+  }
+
+  .bd-#{$name} {
+    border-color : $color !important;
+  }
+
+}
+
+//element ui
+.bookingSchedule .el-calendar-table .el-calendar-day{ height: auto !important;}
+.bookingSchedule .el-calendar-table td.is-selected { background-color: #009688 !important; color: #fff !important; }
+.bookingSchedule .el-calendar-table .el-calendar-day:hover { background-color: #fff !important; color: #666 !important; }
+.bookingSchedule .el-backtop, .el-calendar-table td.is-today { color: #666 !important; }
+.bookingSchedule .el-calendar-table:not(.is-range) td.next, .el-calendar-table:not(.is-range) td.prev { background-color: #F8F8F8;}
+.bookingSchedule .el-calendar-table thead th{ border-left: 1px solid #EBEEF5; border-right: 1px solid #EBEEF5; border-top: 1px solid #EBEEF5; }
+
+.staffDetails .el-calendar-table .el-calendar-day{ height: 192px !important;}
+.staffDetails .el-calendar-table:not(.is-range) td.next, 
+.staffDetails .el-calendar-table:not(.is-range) td.prev { background-color: #ffffff;}
+.staffDetails td.prev .list,
+.staffDetails td.next .list{ color:#999 !important}
+.staffDetails td.prev .list span,
+.staffDetails td.next .list span { color:#999 !important}
+.staffDetails td.current .f16px { color:#666 !important}
+.staffDetails .el-calendar-table thead th { border-right: 1px solid #e5e5e5 !important; background-color: #F8F8F8 !important}
+.staffDetails .el-calendar-table thead th:first-child { border-left: 1px solid #e5e5e5 !important}
+.ReturnVisitList .el-dialog__header, .ReturnVisitList .el-dialog__body {padding: 0;}
+.TaskList .el-dialog__header, .TaskList .el-dialog__body {padding: 0;}
+.ClientList .el-dialog__header, .ClientList .el-dialog__body {padding: 0;}
+.Callback .el-dialog__header, .Callback .el-dialog__body {padding: 0;}
+.TechnicianHome .el-dialog__header, .TechnicianHome .el-dialog__body {padding: 0;}
+.CounselorHome .el-dialog__header, .CounselorHome .el-dialog__body {padding: 0;}
+.ShopData .el-dialog__header, .ShopData .el-dialog__body {padding: 0;}
+
+.ChannelStatistics .el-table__header-wrapper tbody td, .el-table__footer-wrapper tbody td { background-color: #0DC9E5; color: #606266;}
+.Billing .BillingDialog .el-input__inner{ border: none !important; }
+
+//.el-form-item{margin-bottom: 18px !important; margin-right: 10px !important;}
+.el-form-item{margin-bottom: 18px !important; }
+.el-button{ cursor:pointer !important; }
+
+.el-menu{ background: transparent !important;}
+.el-menu .is-opened .el-submenu__title{ background: #353752; transition: none !important;}
+
+.is-opened .is-active span{ border-left: 2px solid #FD8137; padding-left: 4px; }
+.el-menu span{ padding-left: 6px; }
+
+.el-submenu__title:hover {
+  background: #353752 !important;
+}
+
+.el-menu-item:hover, .el-menu-item:focus{ background: transparent !important;}
+
+.el-icon-arrow-down:before {
+  content: "\e790" !important;
+  font-size: 14px;
+   color: #fff;
+}
+
+.el-icon-arrow-down{
+  //content: "\E6DF";
+  content: "\e790" !important;
+}
+.el-cursor{
+  cursor: pointer;
+}
+.el-overflow{
+  overflow: hidden;
+}
+.el-fw{
+  font-weight: normal;
+}
+
+.el-table thead { background: #f8f8f8 !important; }
+
+.el-table__header{ background: #f8f8f8 !important; }
+.el-table__header td,th{ background: #f8f8f8 !important;}
+
+.h365px{ height: 365px;}
+.h450px{ height: 450px;}
+.h520px{ height: 520px;}
+.h300px{ height: 300px;}
+.h260px{ height: 260px;}
+.h120px{ height: 120px;}
+
+.w120px{ width: 120px;}
+.w160px{ width: 160px;}
+.w300px{ width: 300px;}
+.w340px{ width: 340px;}
+.w400px{ width: 400px;}
+.w260px{ width: 260px;}
+.w200px{ width: 200px;}
+.w240px{ width: 240px;}
+.mauto{ margin: 0 auto; display: block;}
+.mal2per{ margin-left: 2%;}
+.mar2per{ margin-right: 2%;}
+.radius50{ border-radius: 50%;}
+.wb3333{ width: 33.3333333%;}
+
+

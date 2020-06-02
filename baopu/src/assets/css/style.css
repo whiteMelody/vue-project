@@ -1,0 +1,53 @@
+
+.dialogBg{ background: rgba(0,0,0,.5); width: 100%; height: 100%; position: fixed; z-index: 9; top:0; left:0; }
+.dialogBg2{ background: rgba(0,0,0,.5); width: 100%; height: 100%; position: fixed; z-index: 9; top:0; left:0; display: none; }
+.dialog-download{ width: 300px; height: 300px; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: 999999; display: none;}
+.nav-menu{ background: #fff; position: fixed; top: 60px; right: 20px; width: 120px; border: 1px solid #e1e1e1; border-top:none;  z-index: 99999; webkit-box-shadow:0px 0px 2px #a9a9a9;-moz-box-shadow:0px 0px 2px #a9a9a9;box-shadow:0px 0px 2px #a9a9a9 }
+.nav-menu-bg{ background: rgba(0,0,0,.1); position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%;}
+
+.tab-nav{ color: #D9DDFF; }
+.tab-nav-active{ height: 43px; line-height: 43px; display: inline-block; color:#ee542c; border-bottom: 2px solid #ee542c; font-size:18px;}
+
+.head-nav{ color: #999; height: 30px; line-height: 30px; width: 25%; float: left; text-align: center; }
+.head-nav-active{ height: 28px; line-height: 28px; display: inline-block; color:#ee542c; border-bottom: 2px solid #ee542c; font-size:18px;}
+
+.el-message{ top:80px !important;background-color: rgba(0,0,0,.9)!important;min-width:200px!important}
+.el-message__group{margin:0 auto!important}
+.el-message__group p{color: #ffffff !important;text-align: center!important;margin:0 auto!important}
+.el-message__img{display: none !important}
+.el-message-box{ width: 320px !important;}
+.el-input-number__decrease{display: none !important}
+.el-input-number__increase{display: none !important}
+.is-disabled{display: none !important}
+.el-input-number{width: 100% !important}
+
+.el-table .cell, .el-table th>div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.agreement .el-dialog__body{ padding: 15px !important;;}
+
+.pab8{ padding-bottom: 8px}
+
+/*.el-table{border: 0px !important}*/
+input[type="button"], input[type="submit"], input[type="reset"] {
+    -webkit-appearance: none;
+}
+textarea { -webkit-appearance: none;}
+.bor-gray-9{border-color:#40424A}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #D9DDFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #D9DDFF;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #D9DDFF;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #D9DDFF;
+}
+
+

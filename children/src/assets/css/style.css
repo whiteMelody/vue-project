@@ -1,0 +1,115 @@
+
+.En_header{ width: 100%;}
+.En_header-fixed{ position: fixed; top: 0; z-index: 99;}
+
+.dialogBg{ background: rgba(0,0,0,.5); width: 100%; height: 100%; position: fixed; z-index: 9; top:0; left:0; }
+.dialogBg2{ background: rgba(0,0,0,.5); width: 100%; height: 100%; position: fixed; z-index: 9; top:0; left:0; display: none; }
+.dialog-download{ width: 300px; height: 300px; position: fixed; top: 0; left: 0; right: 0; bottom: 0; margin: auto; z-index: 999999; display: none;}
+.nav-menu{ background: #fff; position: fixed; top: 60px; right: 20px; width: 120px; border: 1px solid #e1e1e1; border-top:none;  z-index: 99999; webkit-box-shadow:0px 0px 2px #a9a9a9;-moz-box-shadow:0px 0px 2px #a9a9a9;box-shadow:0px 0px 2px #a9a9a9 }
+.nav-menu-bg{ background: rgba(0,0,0,.1); position: fixed; z-index: 9999; top: 0; left: 0; width: 100%; height: 100%;}
+
+/*.en-back{ height: 50px; width: 50px; position: absolute; left: 18px; top:0; background: url("../images/icon-back.png") no-repeat left center; background-size: auto 20px;}*/
+/*.en-back2{ height: 50px; width: 50px; position: absolute; left: 18px; top:0; background: url("../images/icon-back-white.png") no-repeat left center; background-size: auto 20px;}*/
+/*.en-edit{ height: 50px; width: 50px; position: absolute; right: 18px; top:0; background: url("../images/icon-main-edit.png") no-repeat right center; background-size: auto 25px;}*/
+/*.en-share{ height: 50px; width: 50px; position: absolute; right: 18px; top:0; background: url("../images/icon-share-white.png") no-repeat right center; background-size: auto 25px;}*/
+
+.gold-buy{ border: 1px solid #e1e1e1; color: #333;}
+.gold-buy-active{ border: 1px solid #f6a623; color: #f6a623;}
+
+.nav{ color:#d9ddff; height: 35px; line-height: 35px; }
+/*.nav-active{ background: #3F872C; color: #FFD800; padding: 2px 4px; border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; }*/
+.nav-active{ height: 33px; line-height: 33px; display: inline-block; color:#EE542C; border-bottom: 2px solid #EE542C; }
+
+
+.tab-nav{ color: #333; }
+.tab-nav-active{ height: 43px; line-height: 43px; display: inline-block; color:#333; border-bottom: 2px solid #e34444;}
+
+.head-nav{ color: #333; height: 30px; line-height: 30px; width: 25%; float: left; text-align: center; }
+.head-nav-active{ height: 28px; line-height: 28px; display: inline-block; color:#0079fc; border-bottom: 2px solid #0079fc;}
+
+.tableBor{ border-collapse: collapse; margin: 0; padding: 0;}
+.tableBor td{ border: 1px solid #e1e1e1; border-collapse: collapse; margin: 0; padding: 5px 0;}
+
+.el-message{ top:80px !important;}
+.el-message-box{ width: 320px !important;}
+
+.el-table .cell, .el-table th>div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.el-message{ top:80px !important;background-color: rgba(0,0,0,.9)!important;min-width:200px!important}
+.el-message__group{margin:0 auto!important}
+.el-message__group p{color: #ffffff !important;text-align: center!important;margin:0 auto!important}
+.el-message__img{display: none !important}
+.el-message-box{ width: 320px !important;}
+
+/* 2018年3月13日13:34:58 更改投注倍数input */
+/*.el-input-number__decrease{display: none !important}*/
+/*.el-input-number__increase{display: none !important}*/
+
+.el-input-number__decrease{ width:25px !important; line-height: 28px !important; left: 0px !important; border-right: 1px solid #bfcbd9;}
+.el-input-number__increase{ width:25px !important; line-height: 28px !important;}
+.el-input-number--small .el-input__inner{ padding:0 30px !important; text-align: center !important; }
+
+.is-disabled{display: none !important}
+/*.el-input-number{width: 100% !important}*/
+
+.el-table .cell, .el-table th>div {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.agreement .el-dialog__body{ padding: 15px !important;}
+
+.pab8{ padding-bottom: 8px}
+
+/*.el-table{border: 0px !important}*/
+input[type="button"], input[type="submit"], input[type="reset"] {
+  -webkit-appearance: none;
+}
+textarea { -webkit-appearance: none;}
+.bor-gray-9{border-color:#40424A}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #D9DDFF;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #D9DDFF;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #D9DDFF;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color:    #D9DDFF;
+}
+
+.btn-shadow{
+
+  background: -webkit-linear-gradient(#FDCF00, #FFEA00); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(#FDCF00, #FFEA00); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(#FDCF00, #FFEA00); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#FDCF00, #FFEA00); /* 标准的语法 */
+
+  box-shadow: 2px 0px 6px rgba(190,24,11,1);
+  -webkit-box-shadow: 2px 0px 6px rgba(190,24,11,1);
+  -moz-box-shadow: 2px 0px 6px rgba(190,24,11,1);
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #6F799A;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #6F799A;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #6F799A;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #6F799A;
+}
+

@@ -1,0 +1,31 @@
+.SelectClient {
+  background: #f8f8f8;
+  width: 100%;
+  overflow: hidden;
+  .infinite-list-wrapper{
+    margin: 1.2rem 0;
+    ul{
+      background: #fff;
+      padding: 0 .24rem;
+      li{
+        border-bottom: 1px solid #E5E5E5;
+        height: .9rem;
+        display: flex;
+        align-items: center;
+        font-size: .28rem;
+        color: #333333;
+      }
+      .active{
+        color: #04776C;
+      }
+    }
+    span{
+      height: .6rem;
+      display: flex;
+      font-size: .28rem;
+      color: #999;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

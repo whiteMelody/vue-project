@@ -1,0 +1,156 @@
+
+@colorNames: red, red1, red2, red3, blue, blue1, blue2, blue3, blue4, blue4, blue5, white, yellow, yellow1, orange, orange1, orange2, black, green, green1, green2, gray, gray1, gray2, gray3, gray4, gray5, gray6, gray7, brown, brown1, brown2, brown3;
+
+@colorValues: #e34444, #f25068, #d4003c, #f26024, #4393e5, #6cc6ed, #94c6ff, #3f4b57, #2985f6, #28a0e6, #ffffff, #ffd800, #f6a623, #f5a623, #f28e63, #ee542c, #222222, #6e9f57, #d8f7be, #84e700, #aaa, #ccc, #999, #6e6e6e, #404040, #D9DDFF, #6f799a, #adb0cc, #dd870b, #965b21, #b29d83, #7E4F00;
+
+.generate-colors(0);
+
+.generate-colors(@i:0, @name:extract(@colorNames, @i), @color:extract(@colorValues, @i)) when (@i < length(@colorNames)) {
+  //.F@{name} {
+  //  color: @color;
+  //}
+  .BG@{name} {
+    background-color: @color;
+  }
+  .BOR@{name} {
+    border-color: @color;
+  }
+  .generate-colors(@i + 1);
+}
+
+.generate-space(0);
+
+.generate-space(@n) when (@n < 30) {
+  .pa@{n} {
+    padding: (1px * @n);
+  }
+  .pat@{n} {
+    padding-top: (1px * @n);
+  }
+  .pal@{n} {
+    padding-left: (1px * @n);
+  }
+  .pab@{n} {
+    padding-bottom: (1px * @n);
+  }
+  .par@{n} {
+    padding-right: (1px * @n);
+  }
+  .ma@{n} {
+    margin: (1px * @n);
+  }
+  .mat@{n} {
+    margin-top: (1px * @n);
+  }
+  .mal@{n} {
+    margin-left: (1px * @n);
+  }
+  .mab@{n} {
+    margin-bottom: (1px * @n);
+  }
+  .mar@{n} {
+    margin-right: (1px * @n);
+  }
+  .pa@{n}per {
+    padding: (1% * @n);
+  }
+  .pat@{n}per {
+    padding-top: (1% * @n);
+  }
+  .pal@{n}per {
+    padding-left: (1% * @n);
+  }
+  .pab@{n}per {
+    padding-bottom: (1% * @n);
+  }
+  .par@{n}per {
+    padding-right: (1% * @n);
+  }
+  .ma@{n}per {
+    padding: (1% * @n);
+  }
+  .mat@{n}per {
+    padding-top: (1% * @n);
+  }
+  .mal@{n}per {
+    padding-left: (1% * @n);
+  }
+  .mab@{n}per {
+    padding-bottom: (1% * @n);
+  }
+  .mar@{n}per {
+    padding-right: (1% * @n);
+  }
+  .w@{n}px {
+    width: (1px * @n);
+  }
+  .h@{n}px {
+    height: (1px * @n);
+  }
+  .lh@{n}px {
+    line-height: (1px * @n);
+  }
+
+  .generate-space(@n + 1);
+}
+
+ //border-color的bug
+//.generate-borders(0);
+//.generate-borders(@n) when (@n < 3) {
+//  .bor-solid-@{n}a {
+//    border: solid (1px * @n);
+//  }
+//  .bor-solid-@{n}t {
+//    border-top: solid (1px * @n);
+//  }
+//  .bor-solid-@{n}l {
+//    border-left: solid (1px * @n);
+//  }
+//  .bor-solid-@{n}b {
+//    border-bottom: solid (1px * @n);
+//  }
+//  .bor-solid-@{n}r {
+//    border-right: solid (1px * @n);
+//  }
+//  .generate-borders(@n + 1);
+//}
+
+.generate-wb(100);
+.generate-wb(@n, @i: 1) when (@i =< @n) {
+  .wb@{i} {
+    width: (@i * 100% / @n);
+  }
+  .generate-wb(@n, (@i + 1));
+}
+
+.generate-layout(0);
+.generate-layout(@n, @i: @n*5) when (@i < 300) {
+  .w@{i}px {
+    width: (5px * @n);
+  }
+  .h@{i}px {
+    height: (5px * @n);
+  }
+  .lh@{i}px {
+    line-height: (5px * @n);
+  }
+  .radius@{i}{
+    -moz-border-radius: (5px * @n);
+    -webkit-border-radius: (5px * @n);
+    border-radius: (5px * @n);
+  }
+
+  .generate-layout(@n + 1, (@n + 1) * 5);
+}
+
+.generate-font(12);
+.generate-font(@n) when (@n < 36) {
+  .F@{n} {
+    font-size: (1px * @n);
+  }
+  .generate-font(@n + 1);
+}
+
+
+
+

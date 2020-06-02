@@ -1,0 +1,152 @@
+.NewToCollectMoneyCard {
+  overflow: hidden;
+
+  ul {
+    margin: .2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    li {
+      width: 24%;
+      margin-bottom: .2rem;
+      height: 3.7rem;
+      background: url('../../../assets/img/money_bg.png') no-repeat 100%/100%;
+
+      .payment {
+        display: flex;
+        align-items: center;
+        margin: .17rem .2rem;
+        .icon {
+          width: .6rem;
+          height: .6rem;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          i {
+            font-size: .32rem;
+            color: #ffffff;
+          }
+        }
+        .text {
+          font-size:.18rem;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          margin-left: .14rem;
+        }
+        
+        .textOne {
+          color: #F35F5F;
+        }
+        .textTwo {
+          color: #7BDA79;
+        }
+        
+        .iconOne {
+          background-color: #F35F5F;
+        }
+        .iconTwo {
+          background-color: #7BDA79;
+        }
+      }
+
+      .money {
+        height: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 .2rem;
+        border-bottom: 1px dashed #e5e5e5;
+        border-top: 1px dashed #e5e5e5;
+        font-size:14px;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        .money_text {
+          color:rgba(102,102,102,1);
+        }
+        .money_num {
+          a {
+            font-size: .24rem;
+            color:rgba(51,51,51,1);
+          }
+        }
+      }
+
+      .listBox {
+        margin: .15rem .2rem;
+        font-size:.14rem;
+        font-family:Microsoft YaHei;
+        font-weight:400;
+        color:rgba(102,102,102,1);
+        .list {
+          line-height: .28rem;
+        }
+      }
+
+      .buttomBox {
+        margin: 0 .2rem;
+        .bottomOne {
+          height: .4rem;
+          display: flex;
+          border-radius: .05rem;
+          overflow: hidden;
+          cursor: pointer;
+          font-size:.14rem;
+          font-family:Microsoft YaHei;
+          font-weight:400;
+          .left {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .left_left {
+              height: 100%;
+              width: 100%;
+              line-height: .4rem;
+              text-align: center;
+            }
+            em {
+              width:1px;
+              height:.1rem;
+              background:rgba(192,192,192,1);
+            }
+          }
+          .right {
+            width: 1.27rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .clcorOne {
+            background-color: #0DC9E5;
+            color:rgba(255,255,255,1);
+          }
+          .clcorTwo {
+            color:rgba(102,102,102,1);
+            background-color: #F2F2F2;
+          }
+        }
+      }
+    }
+  }
+  .no_data{
+    display: flex;
+    justify-content: center;
+    div{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 4rem;
+      b{
+        font-weight: normal;
+        color: #999;
+        font-size: 16px;
+        padding-top: 10px;
+      }
+    }
+  }
+}

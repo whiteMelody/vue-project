@@ -1,0 +1,158 @@
+.AddCustomer {
+    background: #f8f8f8;
+    .box{
+        ul{
+            padding: 0 .24rem;
+            margin-top: .2rem;
+            .remark{
+                flex-direction: column;
+                align-items: flex-start;
+                padding-bottom: .2rem;
+                border: 0;
+                label{
+                    width: 100%;
+                    margin-top: .3rem;
+                }
+                p{
+                    width: 97%;
+                    padding: .3rem 0 0 .2rem;
+                    display: flex;
+                    height: 2.2rem;
+                    textarea{
+                        font-size: .28rem;
+                        resize: none;
+                        flex: 1;
+                        border: 0;
+                        height: 100%;
+                    }
+                }
+            }
+            li{
+                display: flex;
+                border-bottom: 1px solid #E5E5E5;
+                align-items: center;
+                
+                label{
+                    width: 1.2rem;
+                    display: flex;
+                    align-items: center;
+                    font-size: .28rem;
+                    b{
+                        font-weight: normal;
+                        color: #EC414D;
+                        width: .2rem;
+                    }
+                    span{
+                        color: #333333;
+                    }
+                }
+                p{
+                    flex: 1;
+                    height: .9rem;
+                    overflow: hidden;
+                    text-align: right;
+                    padding-right: .2rem;
+                    color: #999999;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    font-size: .28rem;
+                    input{
+                        width: 100%;
+                        height: 100%;
+                        font-size: .28rem;
+                        float: left;
+                        text-align: right;
+                        border: 0;
+                        color: #333;
+                    }
+                    textarea{
+                        color: #333;
+                        height: 100%;
+                    }
+                    strong{
+                        font-size: .28rem;
+                        font-weight: normal;
+                    }
+                    a{
+                        color: #333;
+                    }
+                }
+                i{
+                    width: .24rem;
+                    font-size: .1rem;
+                    color: #666666;
+                }
+            }
+        }
+    }
+    .btns{
+        padding: 1.2rem .5rem .4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .van-actionsheet__cancel{
+        color: #04776C;
+    }
+    .pop_boxs{
+        .pop_box{
+            display: flex;
+            flex-direction: column;
+            .header{
+                display: flex;
+                height: .9rem;
+                color: #F2F2F2;
+                align-items: center;
+                justify-content: space-between;
+                background: #F2F2F2;
+                a,span{
+                    font-size: .28rem;
+                    color: #666;
+                }
+                a{
+                    padding-right: .24rem;
+                }
+                span{
+                    padding-left: .24rem;
+                }
+            }
+            .text{
+                border-bottom: 1px solid #E5E5E5;
+                color: #04776C;
+                padding-left: .24rem;
+                font-size: .3rem;
+                line-height: .9rem;
+            }
+            ul{
+                padding: 0 .24rem;
+                max-height:4rem ;
+                overflow-y: scroll;
+                li{
+                    display: flex;
+                    border-bottom: 1px solid #E5E5E5;
+                    font-size: .28rem;
+                    line-height: .9rem;
+                    color: #333333;
+                    span{
+                        flex: 1;
+                    }
+                    i{
+                        font-size: .28rem;
+                        display: none;
+                    }
+                    
+                }
+                .active{
+                    color: #04776C;
+                    i{
+                        display: block;
+                    }
+                }
+                
+            }
+            
+        }
+    }
+}
+

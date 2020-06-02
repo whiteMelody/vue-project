@@ -1,0 +1,196 @@
+
+    .elContainer {
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      /* left: 160px; */
+      left: 136px;
+      top: 0;
+      width: calc(100% - 160px);
+      .contentRoute{
+          padding: 0;
+          .mainBackground {
+              /* padding: 15px 20px; */
+              background-color: #f8f8f8;
+              /*box-shadow: 0 1px 1px 0px rgba(0, 34, 77, 0.06);*/
+              .Popup {
+                  width: 360px;
+                  position: fixed;
+                  right: 94px;
+                  border-radius: 5px;
+                  overflow: hidden;
+                  z-index: 9999;
+                  .title {
+                      height: 40px;
+                      background-color: #0DC9E5;
+                      padding: 0 20px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: space-between;
+                      font-size:14px;
+                      font-family:Microsoft YaHei;
+                      font-weight:400;
+                      color:rgba(255,255,255,1);
+                      i {
+                          cursor: pointer;
+                      }
+                  }
+                  .centent {
+                    background-color: #FFFFFF;
+                    padding: 20px;
+                    .text {
+                      font-size:14px;
+                      font-family:Microsoft YaHei;
+                      font-weight:400;
+                      color:rgba(153,153,153,1);
+                      margin-bottom:18px;
+                      display: flex;
+                      justify-content: space-between;
+                      span {
+                        &:nth-child(2) {
+                          color: #666;
+                          cursor: pointer;
+                          &:hover {
+                            color: #0DC9E5;
+                            text-decoration: underline;
+                          }
+                        }
+                      }
+                    }
+                    .bottom {
+                      overflow: hidden;
+                      padding-bottom: 20px;
+                      .ButtonGroup {
+                        float: left;
+                        height:34px;
+                        padding: 0 20px;
+                        background:rgba(248,248,248,1);
+                        border:1px solid rgba(229,229,229,1);
+                        box-sizing: border-box;
+                        border-radius:17px;
+                        margin-right: 10px;
+                        margin-bottom: 10px;
+                        text-align: center;
+                        line-height: 34px;
+                        font-size:14px;
+                        font-family:Microsoft YaHei;
+                        font-weight:400;
+                        color:rgba(102,102,102,1);
+                        cursor: pointer;
+                        &:hover {
+                          background:rgba(13,201,229,1);
+                          border: none;
+                          color: #FFFFFF;
+                        }
+                      }
+                    }
+                    .list {
+                      ul {
+                          // overflow-y:auto;
+                          // max-height: 360px;  
+                        li {
+                          display: flex;
+                          justify-content: space-between;
+                          flex-wrap: nowrap;
+                          font-size:14px;
+                          font-family:Microsoft YaHei;
+                          font-weight:400;
+                          color:rgba(51,51,51,1);
+                          margin-bottom: 18px;
+                          &:last-child {
+                            margin-bottom: 0;
+                          }
+                          &.no {
+                            color: #999;
+                            margin-bottom: 18px;
+                          }
+                          .name {
+                            display: flex;
+                            white-space: nowrap;
+                            width: 150px;
+                            cursor: pointer;
+                            &:hover {
+                              color: #0DC9E5;
+                            }
+                            .spanIsShow {
+                              width: 55%;
+                              display:inline-block;
+                              overflow: hidden;
+                              white-space: nowrap; 
+                              text-overflow: ellipsis;
+                            }
+                          }
+                          .time {
+                            white-space: nowrap;
+                          }
+                          &.liList {
+                            padding: 12px 0;
+                            border-top: 1px solid #e5e5e5;
+                            margin: 0;
+                            div {
+                              span {
+                                font-size:14px;
+                                font-family:Microsoft YaHei;
+                                font-weight:400;
+                                color:rgba(13,201,229,1);
+                                &:nth-child(2) {
+                                  color: #333333;
+                                }
+                              }
+                            }
+                            &:last-child {
+                              border-bottom: 1px solid #e5e5e5;
+                            }
+                          }
+                        }
+                      }
+                      // ul::-webkit-scrollbar {
+                      //   display: none;
+                      // }
+                    }
+                  }
+              }
+              .myBackTop{
+                  background: rgba(200,200,200,1);
+                  color: #999999;
+              }
+              .myBackTop:hover{
+                  background: rgba(200,200,200,.8);
+                  color: #FFFFFF;
+              }
+              .assistant {
+                  position: fixed;
+                  right: 40px;
+                  z-index: 100;
+                  width: 50px;
+                  height: 50px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  cursor: pointer;
+                  border-radius: 5px;
+                  border:1px solid #e5e5e5;
+                  box-sizing: border-box;
+                  background-color: #fff;
+                  &:hover {
+                    border: none;
+                    background-color: #0DC9E5;
+                  }
+                  img {
+                      width: 70%;
+                  }
+              }
+              // .assistantActiveOne {
+              // }
+
+              // .assistantActive {
+              //     background-color: #0DC9E5;
+              // }
+          }
+
+      }
+      &.elContainer::-webkit-scrollbar {
+        display: none;
+      }
+
+  }

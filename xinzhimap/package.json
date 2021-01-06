@@ -11,7 +11,7 @@
     "webapp": "vue-cli-service serve --open --mode webapp"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "cesium": "^1.69.0",
     "cesium-navigation-es6": "^1.1.5",

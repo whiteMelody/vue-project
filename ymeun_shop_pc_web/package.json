@@ -32,8 +32,8 @@
     "wangeditor": "^2.1.23"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.6.0",
-    "@vue/cli-service": "^3.6.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^5.0.8",
     "glob": "^7.1.6",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
